@@ -5,5 +5,5 @@ public class CurrencyConverter {
 		// TODO Auto-generated method stub
 
 	}
-
+	
 }
