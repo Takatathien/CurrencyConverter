@@ -4,11 +4,12 @@ import java.util.Scanner;
 /*
  * Thien Trinh
  * 
- * This is a simple currency converter program.
+ * This is a simple currency converter program with API.
  */
 public class CurrencyConverter {
 
 	public static void main(String[] args) {
+		
 		HashMap<Integer, String> currencyCodes = new HashMap<Integer, String>();
 		
 		// Add currency codes.
@@ -39,6 +40,11 @@ public class CurrencyConverter {
 		//sendHttpGETRequest(fromCode, toCode, amount);
 		
 		System.out.println("Thank you for using the currency converter!");
+	}
+	
+	private static void sendHttpGETRequest(String fromCode, String toCode, double amoung) {
+		
+		// String GET_URL = ""
 	}
 
 }
