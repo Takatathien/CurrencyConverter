@@ -36,6 +36,7 @@ public class CurrencyConverter {
 		System.out.println("Amount you with to convert?");
 		amount = sc.nextFloat();
 		
+		//sendHttpGETRequest(fromCode, toCode, amount);
 		
 		System.out.println("Thank you for using the currency converter!");
 	}
